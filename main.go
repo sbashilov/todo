@@ -96,7 +96,6 @@ func list() error {
 		}
 		fmt.Printf(" %s\n", task.Text)
 	}
-	return nil
 }
 
 func done(tNum string) error {
