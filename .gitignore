@@ -14,3 +14,5 @@ build/
 *.out
 
 tasks.pb
+k8s/tls.crt
+k8s/tls.key

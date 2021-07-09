@@ -2,6 +2,19 @@ syntax = "proto3";
 
 package task;
 
+import "google/protobuf/empty.proto";
+
+option go_package = "github.com/sbashilov/todo/pb";
+
+service TaskService {
+    rpc Add(Task) returns (google.protobuf.Empty);
+    rpc List(google.protobuf.Empty) returns (Tasks);
+}
+
+message Tasks {
+    repeated Task tasks = 1;
+}
+
 message Task {
     string text = 1;
     bool done = 2;
