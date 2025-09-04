@@ -1,19 +1,0 @@
-
-·
-google/protobuf/empty.protogoogle.protobuf"
-EmptyBv
-com.google.protobufB
-EmptyProtoPZ'github.com/golang/protobuf/ptypes/emptyø¢GPBªGoogle.Protobuf.WellKnownTypesbproto3
-™
-
-task.prototaskgoogle/protobuf/empty.proto")
-Tasks 
-tasks (2
-.task.TaskRtasks".
-Task
-text (	Rtext
-done (Rdone2e
-TaskService)
-Add
-.task.Task.google.protobuf.Empty+
-List.google.protobuf.Empty.task.TasksBZgithub.com/sbashilov/todo/pbbproto3
