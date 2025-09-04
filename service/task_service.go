@@ -9,10 +9,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
 	"github.com/sbashilov/todo/pb"
 	"google.golang.org/protobuf/proto"
+	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 
 const (
@@ -21,7 +21,9 @@ const (
 )
 
 // TaskService grpc server impl
-type TaskService struct{}
+type TaskService struct {
+	pb.UnimplementedTaskServiceServer
+}
 
 // Add add new todo task to list
 func (ts *TaskService) Add(ctx context.Context, t *pb.Task) (*empty.Empty, error) {

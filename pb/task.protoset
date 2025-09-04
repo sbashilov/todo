@@ -1,12 +1,11 @@
 
-·
+¾
 google/protobuf/empty.protogoogle.protobuf"
-EmptyBv
+EmptyB}
 com.google.protobufB
-EmptyProtoPZ'github.com/golang/protobuf/ptypes/emptyø¢GPBªGoogle.Protobuf.WellKnownTypesbproto3
-™
-
-task.prototaskgoogle/protobuf/empty.proto")
+EmptyProtoPZ.google.golang.org/protobuf/types/known/emptypbø¢GPBªGoogle.Protobuf.WellKnownTypesbproto3
+œ
+pb/task.prototaskgoogle/protobuf/empty.proto")
 Tasks 
 tasks (2
 .task.TaskRtasks".
